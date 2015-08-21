@@ -11,17 +11,22 @@
         background: #252525;
       }
     </style>
-
+    <script type="text/javascript">
+      function comb($f, $s, $d)
+      {
+        return ($f + "@" + $s + $d);
+      }
+      function mlink()
+      {
+        return (comb("znvygb:cbfg", "ervqneubygu", "ab")).replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<=”Z”?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
+      }
+    </script>
   </head>
 <body>
   <div align="center" > <!-- valign="top" style="position:absolute; top:0px; height:500px; width:800px;"> -->
     <img src="vk.png" alt="Reidar Holth" width="800px" height="500px" usemap="#links">
     <map name="links">
-      <script type="text/javascript">
-        document.write("<area shape=\"rect\" coords=\"257,270,543,300\" ");
-        document.write(“uers=\”znvygb:cbfg@ervqneubygu.ab\””.replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<=”Z”?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
-        document.write(" alt=\"\" />");
-      </script>
+      <area shape="rect" coords="257,270,543,300" href="" onclick="mlink()" alt="" />
       <area shape="rect" coords="366,403,436,417" href="http://w2.brreg.no/enhet/sok/detalj.jsp?orgnr=991538208" alt="Org.no." />
     </map>
   </div>
