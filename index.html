@@ -11,17 +11,7 @@
         background: #252525;
       }
     </style>
-    <script type="text/javascript">
 
-      function comb($f, $s, $d)
-      {
-        return ($f + "@" + $s + $d);
-      }
-      function swap()
-      {
-        document.getElementById("mlink").href = (comb("znvygb:cbfg", "ervqneubygu", "ab")).replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<=”Z”?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
-      }
-    </script>
   </head>
 <body onload="swap()">
   <div align="center" > <!-- valign="top" style="position:absolute; top:0px; height:500px; width:800px;"> -->
@@ -31,6 +21,18 @@
       <area shape="rect" coords="366,403,436,417" href="http://w2.brreg.no/enhet/sok/detalj.jsp?orgnr=991538208" alt="Org.no." />
     </map>
   </div>
-
 </body>
+
+<script type="text/javascript">
+
+  function comb($f, $s, $d)
+  {
+    return ($f + "@" + $s + "." + $d);
+  }
+  function swap()
+  {
+    document.getElementById("mlink").href = (comb("znvygb:cbfg", "ervqneubygu", "ab")).replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<=”Z”?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));
+  }
+</script>
+
 </html>
