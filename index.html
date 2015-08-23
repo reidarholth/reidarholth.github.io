@@ -1,39 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
     <title>Reidar Holth Konsulenttjenester</title>
-
-    <style>
-      body
-      {
-        background: #252525;
-      }
-    </style>
-
-    <script type="text/javascript">
-
-      function comb($f, $s, $d)
-      {
-        return ($f + "@" + $s + "." + $d);
-      }
-      function swap()
-      {
-        document.getElementById("mlink").setAttribute("href", comb("znvygb:cbfg", "ervqneubygu", "ab").replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<=”Z”?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}))
-      }
-    </script>
+    <link href="/stylesheets/normalize.css" rel="stylesheet" /><link href="/stylesheets/all.css" rel="stylesheet" /><link href="/stylesheets/style.css" rel="stylesheet" />
+    <script src="/javascripts/all.js"></script>
   </head>
-<body onload="swap()">
-  <div align="center" > <!-- valign="top" style="position:absolute; top:0px; height:500px; width:800px;"> -->
-    <img src="vk.png" alt="Reidar Holth" width="800px" height="500px" usemap="#links">
-    <map name="links">
-      <area shape="rect" coords="257,270,543,300" id="mlink" href="" alt="" />
-      <area shape="rect" coords="366,403,436,417" href="http://w2.brreg.no/enhet/sok/detalj.jsp?orgnr=991538208" alt="Org.no." />
-    </map>
-  </div>
-</body>
 
+  <body class="index">
+    
+<div class="vk">
+  <img src="/images/vk.png" alt="Reidar Holth" usemap="#links">
+  <map name="links">
+    <area shape="rect" id="mlink" coords="257,270,543,300" href="" alt="Javascript er deaktivert" />
+    <area shape="rect" id="org" coords="366,403,436,417" href="http://w2.brreg.no/enhet/sok/detalj.jsp?orgnr=991538208" alt="Org.no." />
+  </map>
+</div>
 
-
+  </body>
 </html>
