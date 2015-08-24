@@ -10352,6 +10352,6 @@ function cmb(a, b)
 }
 
 $(document).ready(function(){
-  $("#mlink").attr("href", "mailto:" + cmb("post", "reidarholth")); //"mailto:mail@mail.mail");
+  $("#mlink").attr("href", "mailto:" + cmb("post", "reidarholth"));
   $("#mlink").attr("alt", "Kontakt.");
 });
